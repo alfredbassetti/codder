@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.host {
+    margin-bottom: 100px;
+    height: 400px;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    a {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        p {
+            position: absolute;
+            top: 80px;
+            left: 150px;
+        }
+    }
+    
+    
+    :hover{
+        opacity: 0.9;        
+    }
+    img {
+        width: 500px;
+        height: 200px;
+        object-fit:cover;
+        border-radius: 10px;
+        
+        
+        
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.presentacion {
+    background-color: #eee;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.host-main li {
+    list-style: none;
+}
+.home i{    
+    font-size: 45px;
+    margin:50px 0 0 50px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+.home i:hover {
+    color: #eee;
+    transition: 0.2s;
+}
+
+.reviews {
+    
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 20%;
+    width: 50%;
+    .reviews-row {
+        display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+    h3{
+
+        padding-top: 30px;
+     }
+    }
+    a {
+        position: relative;
+        left: 600px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+
+.host-h1 {
+    text-align: center;
+    position: relative;
+    left: 10%;
+    top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 55px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+    
+    
+      
+}
+
+.desc1 p, .desc2 p {
+    font-size: 23px;
+    color: #1f1e1e;
+    padding: 32px;
+    
+}
+
+.desc1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 100px;    
+    justify-content: space-around;
+    img {
+        border-radius: 20px;
+        width: 90%;
+        
+    }
+}
+.desc2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;  
+    justify-content: space-around;  
+    img {
+        width: 120%!important;
+        border-radius: 20px;
+    }
+}
+
+.experiences {
+    margin-top: 120px;
+}
+
+.previous-hosts {
+    text-align: center;
+}
+
+.comments {
+    margin-top: 80px;
+}
+
+.comments h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
+
+
+.host-hover  {
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
+
+.host-hover p {
+    position: relative;
+    bottom: 150px;
+    left: 55px;
+    display: none;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+.host-hover:nth-child(3) p, .host-hover:nth-child(6) p {
+    position: relative;
+    left: 30px;
+}
+
+
+.host-hover:hover{
+
+    p {
+   display:inline;
+   color: #1f1e1e;
+   
+}
+img {
+    opacity: 0.5;
+}
+}
+
+.form {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 25% 200px 25%;
+    h2{ 
+        align-self: center;
+        padding:40px 0;
+    }
+    
+}
+
+/*************** BEM *****************/
+
+
+.nav-navbar--padding li {
+       
+    padding: 0 20px;
+
+}
+

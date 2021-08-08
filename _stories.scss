@@ -1,0 +1,80 @@
+.stories {
+    display: flex;  
+    ;
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0 10%;
+    justify-content: space-around;
+    margin: 0;
+    
+    background-color: #ccc;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 38px;    
+    padding: 240px 10%;    
+       
+}
+
+.stories_flex-1 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.stories_flex-1 img:hover {    
+    
+    scale: 101%;
+    transition: 0.3s;
+    box-shadow: 0 0 20px  rgb(202, 202, 202);
+}
+
+
+.stories img {
+    border-radius: 40px;
+    width: 60%;     
+    transition: 0.3s;
+    z-index: 10;
+    
+}
+
+.stories_flex-1 a img {
+    height: 100%;
+    z-index: 3;
+   
+}
+.stories_flex-1 a{
+    text-align: center;
+    :hover, :active, :link,:visited {
+        color: rgb(41, 1, 114);
+    }
+        p, h2 {
+            color: #000;
+        }
+}
+
+.stories_flex-2 {
+    flex-grow: 2;
+    p {
+        font-size: 22px;
+        text-align: justify;
+        font-weight: 500;
+        line-height: 38px;
+    }
+}
+
+.tweaked {    
+  
+    position: relative;
+    bottom: 260px;
+    transform: rotate(15deg);
+    right: 100px;
+    z-index: 1;
+    width: 80%;
+   
+}
+
+.storiesbtn {
+    position: relative;
+    bottom: 200px;
+    margin-bottom: -300px;
+}

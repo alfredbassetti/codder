@@ -1,0 +1,44 @@
+.stories {
+    display: flex;  
+    overflow-x: hidden; 
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 700px;
+    background-color: #eee;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 38px;    
+    padding: 40px 0;       
+}
+
+.stories img:hover {    
+    
+    scale: 101%;
+    transition: 0.3s;
+    box-shadow: 0 0 20px  rgb(202, 202, 202);
+}
+
+
+.stories img {
+    border-radius: 40px;
+    justify-content: stretch;
+    transition: 0.3s;
+}
+
+.stories a img {
+    height: 100%;
+   
+}
+.stories a{
+    text-align: center;
+}
+
+.storiesbtn {
+    
+    display: inline-block;
+    position: absolute;
+    left: 340px;
+    margin-top: 400px;
+    text-shadow: 1px 1px 4px rgb(153, 153, 153); 
+}

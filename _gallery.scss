@@ -1,0 +1,64 @@
+
+
+
+
+
+/**Galeria de imagenes **/ 
+
+.gallery {
+    width: 100%;
+    text-align: center;
+
+}
+
+.rowCarrousel{
+    display: flex;
+    background-color: #eee;
+    overflow-x:initial;
+    flex-wrap: wrap;
+    justify-content: space-evenly;        
+    width: 100%;  
+}
+
+.gallery h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.first { 
+    grid-area: first;
+    
+}
+
+.second {
+    grid-area: second;
+}
+
+.third {
+    grid-area: third;
+    
+}
+
+.fourth {
+    grid-area: fourth;
+}
+
+.first img,
+.second img,
+.third img,
+.fourth img {
+    width: 400px;
+    margin: 2rem 0;
+    border-radius: 50px 50px 50px 50px;
+    padding: 1rem 1em;
+    transition: 0.3s;
+}
+
+.first img:hover,
+.second img:hover,
+.third img:hover,
+.fourth img:hover {
+    scale: 101%;    
+    padding: 0;
+    transition: 0.3s;
+    box-shadow: 0 0 20px  #000;
+}

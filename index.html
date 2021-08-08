@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get a home for your dogs and pets while you go on vacations.">
+ <meta name="keywords" content="dog, pets, care, house, home, holidy, vacation, rent, guardian, sitter.">
+</head>
+     <link rel="stylesheet" href="./estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>DogHouse</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid container_fluid_padding">
+          <a class="navbar-brand" href="#"><i class="ion-home" style="font-size: 34px; color: #7a7a7a;"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-navbar--padding">
+                          
+              <li class="nav-item">
+                <a class="nav-link" href="#nearbyPlaces">Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">The Guests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stories">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#adventures">Adventures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+              </li>
+              
+            </ul>
+
+            <div class="nav_profile_pic">
+              <ul>
+              <li class="nav-item dropdown nav-item-style">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./resources/img/logo.jpg" alt="Logo">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-style" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Log Out</a></li>
+                </ul>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </nav>             
+                                                   
+         
+    </header>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./resources/img/heroimg1.jpg" alt="Landing Image 1" width=100% height=auto>
+        
+                <div class="container">
+                  <div class="carousel-caption text-start carousel-caption-size">
+                    
+                    <p class="title__size">Your pets have vacations too</p>
+                    <p><a class="btn btn-lg btn-primary" href="#nearbyPlaces">Find a place</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carouselItemImg">
+                <img src="./resources/img/heroimg2.jpg" alt="Landing image 2" width=100% height=auto>
+        
+                <div class="container">
+                  <div class="carousel-caption carousel-caption-size">
+                    
+                    <p class="title__size">Be the host you'd love to have</p>
+                    <p><a class="btn btn-lg btn-primary" href="/host.html">Subscribe for Hosting!</a></p>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      <section class="nearbyPlaces" id="nearbyPlaces">
+          <div class="nearbyPlaces-row">
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_buenos_aires.png" alt="Photo Buenos Aires"></a>
+                <div class="city_name">
+                <h4>Buenos Aires</h4>
+                <p>344 Places</p>
+            </div>
+            </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/city1.jpg" alt="Photo Córdoba"></a>
+                <div class="city_name">
+                <h4>Córdoba</h4>
+                <p>152 Places</p>
+            </div>
+            </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_carlos_paz.png" alt="Photo Carlos Paz"></a>
+                <div class="city_name">
+                <h4>Carlos Paz</h4>
+                <p>88 Places</p>
+            </div>
+            </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_rosario.png" alt="Photo Rosario"></a>
+                <div class="city_name">
+                <h4>Rosario</h4>
+                <p>122 Places</p>
+            </div>
+            </div>
+         </div>
+         <div class="nearbyPlaces-row">
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_alta_gracia.png" alt="Photo Alta Gracia"></a>
+                <div class="city_name">
+                <h4>Alta Gracia</h4>
+                <p>45 Places</p>
+            </div>
+            </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_mina_clavero.png" alt="Photo Mina Clavero"></a>
+                <div class="city_name">
+                <h4>Mina Clavero</h4>
+                <p>21 Places</p>
+            </div>
+            </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_capital.png" alt="Photo Capital Federal"></a>
+                <div class="city_name">
+                <h4>Capital Federal</h4>
+                <p>515 Places</p>
+            </div>
+        </div>
+            <div class="city">
+                <a href="#"><img src="./resources/img/cities_nono.png" alt="Photo Nono"></a>
+                <div class="city_name"> 
+                <h4>Nono</h4>
+                <p>9 places</p>
+            </div>
+        </div> 
+        </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2>How <strong><i>Our</i></strong> Guests Enjoy <strong><i>Your</i></strong> Vacations</h2>
+            
+        <div class="rowCarrousel">
+            
+
+            <div class="first"><img src="./resources/img/slide1.jpg" alt="Picture of dogs enjoying"></div>
+            <div class="second"><img src="./resources/img/slide2.jpg" alt="Picture of dogs enjoying"></div>
+            <div class="third"><img src="./resources/img/slide3.jpg" alt="Picture of dogs enjoying"></div>
+            <div class="fourth"><img src="./resources/img/slide4.jpg" alt="Picture of dogs enjoying"></div>
+            
+            
+        </div>
+    </section>
+
+        <section class="stories" id="stories">
+          <div class="stories_flex-1">
+            <a href="#"><img src="./resources/img/stories.jpg" alt="photo of people with pets"></a>
+            <div class="tweaked">
+            <a href="#"><img src="./resources/img/stories2.jpg" alt="photo of people with pets"></a>
+          </div>
+            <div class="storiesbtn">
+                <a href="#"><h2>Read the most inspiring stories</h2>
+                <p>From amazing people</p></a>
+            </div>
+          </div>
+            <div class="stories_flex-2">
+              <p>Over almost a decade, we have proudly helped more than 100.000 pets find a resting place while their companions refresh themselves over vacations. <br>
+              How? With passionate, caring and loving people. </p>
+            </div>
+
+        </section>
+
+        <section class="adventures" id="adventures">
+            <h2>Discover different places for your pets</h2>
+
+            <div class="adventures_flex">
+            <div class="adventures_flex-item">
+                <img src="./resources/img/experience1.jpg" alt="Photo of pets in a beautiful place">
+                <p>Playgrounds & Company</p>
+            </div>
+            <div class="adventures_flex-item">
+                <img src="./resources/img/experience2.jpg" alt="Photo of pets in a beautiful place">
+                <p>Playgrounds & Company</p>
+            </div>
+            <div class="adventures_flex-item">
+                <img src="./resources/img/experience3.jpg" alt="Photo of pets in a beautiful place">
+                <p>Playgrounds & Company</p>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="host" id="host">                 
+                <a href="host.html">
+                <img src="./resources/img/host.jpg" alt="Photo of host section"><p>Become a Host</p></a>             
+        
+        </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="ion-social-facebook"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="ion-social-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="ion-social-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="ion-social-twitch"></i>
+      </a>
+      
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Dog House
+          </h6>
+          <p>
+            Making all lives better.
+            Don't hesitate in contacting us!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="/host.html" class="text-reset">Host</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Careers</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#nearbyPlaces" class="text-reset">Nearby Places</a>
+          </p>
+          <p>
+            <a href="#adventures" class="text-reset">Adventures</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Villa Carlos Paz, Cordoba, Argentina</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            alfred@coderhouseproject.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="#">Alfred Bassetti</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>

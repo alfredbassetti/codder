@@ -1,0 +1,33 @@
+.nearbyPlaces {
+    padding: 80px 0;
+}
+
+.nearbyPlaces-row {
+    display: flex;   
+    justify-content:space-evenly;
+    width: 100%;
+    padding-bottom: 15px;
+    padding: 0;         
+}
+
+.nearbyPlaces-row:last-child{
+    margin-top: 25px;
+}
+
+.nearbyPlaces-row img {
+    width: 80px;
+    border-radius: 20px;
+    
+}
+
+.city {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+       
+}
+
+.city_name {
+    padding: 0 20px;
+    margin-top: 30px;
+}

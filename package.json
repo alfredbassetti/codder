@@ -1,0 +1,31 @@
+{
+  "name": "coder-master",
+  "version": "1.0.0",
+  "author": "Alfred",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredbassetti/Coder.git"
+  },
+  "keywords": [
+    "Coderhouse",
+    "Pets",
+    "Dog",
+    "Host"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredbassetti/Coder/issues"
+  },
+  "homepage": "https://github.com/alfredbassetti/Coder#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
