@@ -14,25 +14,45 @@
         display: flex;
         justify-content: center;
         position: relative;
+        
         p {
+            
+            background: linear-gradient(to right top, #637cbf,#6cdbeb);
+            border-radius: 5px;
+            padding: 10px;
             position: absolute;
-            top: 80px;
-            left: 150px;
+            top: 70px;
+            left: 450px;
+            z-index: 4;
         }
     }
-    
-    
-    :hover{
-        opacity: 0.9;        
-    }
     img {
-        width: 500px;
+        width: 1000px;
         height: 200px;
         object-fit:cover;
         border-radius: 10px;
-        
-        
-        
+        position: relative;
+        left:10%;
+        z-index: 3;   
+        opacity: 0.7;      
+    }
+    
+          
+    }
+    
+
+
+.host::after {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    display: block;
+    width: 1000px;
+    height: 1px;
+    content: "";
+    border: 1px solid rgb(170, 188, 248);
+    :hover {
+        opacity: 0.7;
     }
 }
 
@@ -78,17 +98,28 @@ body {
     justify-content: space-between;
     
     h3{
-
+        text-transform: capitalize;
         padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
      }
     }
     a {
+        font-weight: bold;
+        background: linear-gradient(to right top, #637cbf,#6cdbeb);;
         position: relative;
+        padding: 20px;
+        border-radius: 5px;
         left: 600px;
         text-decoration: none;
         font-size: 20px;
-    }
-}
+        color: #fff;
+
+        ::hover,::active,::link,::visited {
+            color: #fff;
+            font-size: 50px;
+            text-decoration: none;
+        }
+    }}
 
 
 .host-h1 {
@@ -139,6 +170,12 @@ body {
 
 .experiences {
     margin-top: 120px;
+    h2 {
+        font-weight: bold;
+                    background: linear-gradient(to bottom, #637cbf,#384a7e);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+    }
 }
 
 .previous-hosts {
@@ -154,47 +191,66 @@ body {
     font-family: 'Roboto';
     font-size: 40px;
     word-spacing: 3px;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;    
 }
-
-
 .host-hover  {
     display: inline-block;
     padding-bottom: 200px;
 }
 
-
 .host-hover p {
-    position: relative;
-    bottom: 150px;
+    position: relative;    
     left: 55px;
-    display: none;
+    display: inline;
+    opacity: 0;
     margin-bottom: 30px;
     font-size: 30px;
     text-transform: uppercase;
+    transition: 0.2s;
     
 }
 
 .host-hover:nth-child(3) p, .host-hover:nth-child(6) p {
     position: relative;
     left: 30px;
+    transition: 0.2s;
 }
 
+.host-hover:last-child p {
+    left: 15px;
+    transition: 0.2s;
 
+}
+.bg-image{
+    background: linear-gradient(to right top, #637cbf,#6cdbeb);
+    height: 100%;
+    background-size: cover;
+    
+    img {
+        background-size: cover;
+        transition: 0.2s;
+        border-radius: 5px;
+        
+    }      
+}
 .host-hover:hover{
-
     p {
    display:inline;
-   color: #1f1e1e;
+   color: #fff;
+   font-weight: bold;
+   position: center;
+   opacity: 1;
+   
    
 }
 img {
     opacity: 0.5;
+    
 }
 }
 
 .form {
+    position: relative;
     flex-direction: column;
     width: 100%;
     display: flex;
@@ -203,6 +259,10 @@ img {
     h2{ 
         align-self: center;
         padding:40px 0;
+        font-weight: bold;
+                    background: linear-gradient(to bottom, #637cbf,#384a7e);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
     }
     
 }

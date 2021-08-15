@@ -2,8 +2,9 @@
 
 
 
-
 /**Galeria de imagenes **/ 
+
+$colorprim:#9ab0f8;
 
 .gallery {
     width: 100%;
@@ -11,9 +12,10 @@
 
 }
 
+
 .rowCarrousel{
     display: flex;
-    background-color: #eee;
+    background-image: linear-gradient(to bottom, #fff, #ccc, #fff);
     overflow-x:initial;
     flex-wrap: wrap;
     justify-content: space-evenly;        
@@ -23,6 +25,10 @@
 .gallery h2 {
     margin-bottom: 30px;
     font-size: 30px;
+    font-weight: bold;
+                    background: linear-gradient(to right top, #637cbf,#6cdbeb);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
 }
 .first { 
     grid-area: first;
@@ -51,6 +57,8 @@
     border-radius: 50px 50px 50px 50px;
     padding: 1rem 1em;
     transition: 0.3s;
+    border: none;
+    
 }
 
 .first img:hover,
@@ -60,5 +68,6 @@
     scale: 101%;    
     padding: 0;
     transition: 0.3s;
-    box-shadow: 0 0 20px  #000;
+    box-shadow: 0 0 20px  #fff;
+    border: 1px solid $colorprim;   
 }

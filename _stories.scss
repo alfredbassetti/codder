@@ -1,3 +1,5 @@
+
+$colorprim:#9ab0f8;
 .stories {
     display: flex;  
     ;
@@ -7,7 +9,7 @@
     justify-content: space-around;
     margin: 0;
     
-    background-color: #ccc;
+    
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 38px;    
@@ -34,12 +36,14 @@
     width: 60%;     
     transition: 0.3s;
     z-index: 10;
+    border: 2px solid $colorprim;
     
 }
 
 .stories_flex-1 a img {
     height: 100%;
     z-index: 3;
+    border: 2px solid $colorprim;
    
 }
 .stories_flex-1 a{
@@ -48,17 +52,23 @@
         color: rgb(41, 1, 114);
     }
         p, h2 {
-            color: #000;
+            font-weight: bold;
+                    background: linear-gradient(to bottom, #637cbf,#384a7e);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
         }
+        
 }
 
 .stories_flex-2 {
-    flex-grow: 2;
+    flex-grow: 1;
     p {
         font-size: 22px;
-        text-align: justify;
+        text-align: center;
+        max-width: 120ch;
         font-weight: 500;
         line-height: 38px;
+        width: 500px;
     }
 }
 

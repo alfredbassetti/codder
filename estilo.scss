@@ -4,6 +4,11 @@
 @import "_host";
 @import "gallery";
 @import "about";
+@import "queries";
+
+$colorprim:#9ab0f8;
+ 
+
 
 
 * {
@@ -25,7 +30,6 @@ a {
 .stories a{
     color: #fff;
     text-decoration: none;
-
     .stories a:hover{
         color: #fff;
         text-decoration: none;
@@ -57,37 +61,25 @@ h2 {
     left: 30%;    
     width: 100px;
 
-
-img{
-    border-radius: 50px;
-    width: 150%; 
+    img{
+        border-radius: 50px;
+        width: 150%; 
+        border: 2px solid $colorprim;    
   }
 }
 .dropdown-menu-style {
     list-style:none;
-
 }
 
 .nav-item-style {
     list-style: none;
 }
 
-.carousel-caption-size {
-    font-size: 30px;
-}
-
-
 .nav-navbar--padding {
     margin-left: 25%;
 
-
-    
-
-
-.nav-navbar--padding li {
-       
+.nav-navbar--padding li {       
     padding: 0 30px;
-
 }
 
 .perfil {
@@ -96,8 +88,9 @@ img{
     border-radius: 50px;
 }
 
-
-
+.btn-color {
+    background: linear-gradient(to right top, #637cbf,#6cdbeb);
+}
 
 main {
     display: flex;
@@ -107,8 +100,7 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-footer {
-        
+footer {        
     display:flex;
     align-items: center;
     justify-content: flex-end;
@@ -116,8 +108,7 @@ footer {
     width: 100%;    
     background-color: rgb(216, 216, 216);
     font-size: 50px;
-    height: 300px;
-    
+    height: 300px;    
 }
 
 
@@ -125,8 +116,6 @@ footer i {
     color: #000;
     padding: 0 20px;
 }
-
-
 }
 }
 

@@ -1,3 +1,6 @@
+
+$colorprim:#9ab0f8;
+
 .nearbyPlaces {
     padding: 80px 0;
 }
@@ -17,6 +20,7 @@
 .nearbyPlaces-row img {
     width: 80px;
     border-radius: 20px;
+    border: 2px solid $colorprim;
     
 }
 

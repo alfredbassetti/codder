@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1566px) {
+.host-h1 {
+    display: flex;
+    font-size: 35px;
+    align-self: center;
+}
+
+
+.reviews {
+    width: 80%;
+    position: relative;
+    h3 {
+        font-size: 20px;
+    }
+     img {
+         width: 15%;
+     }
+}
+.desc1 {
+    p {
+        font-size: 18px;
+        line-height: 10ch;
+    }
+
+img {
+    width: 300px;
+    height: auto;
+} 
+}
+
+.desc2 {
+    p {
+        font-size: 18px;
+        line-height: 10ch;
+    }
+
+img {
+    width: 300px!important;
+    height: auto;
+} 
+
+
+}
+
+.experiences {
+    
+     img {
+         width: 10%;
+     }
+}
+
+@media only screen and (max-width: 1400px) {
+    
+        
+    
+    .teammates {
+        flex-direction: column;
+    }
+    .about_img {
+        display: flex; 
+    
+        justify-content: center;
+        img {
+            width: 60%;
+            left: 5%;
+        }
+    }
+    }
+}
