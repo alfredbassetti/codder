@@ -3,6 +3,8 @@
     display: flex;
     font-size: 35px;
     align-self: center;
+    position: relative;
+    left: 10em;
 }
 
 
@@ -11,9 +13,16 @@
     position: relative;
     h3 {
         font-size: 20px;
+        position: relative;
+        right: 20em;
     }
      img {
          width: 15%;
+     }
+     a {  
+         position: relative;
+        padding: 10px;
+        left: 35%;
      }
 }
 .desc1 {

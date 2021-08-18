@@ -678,6 +678,8 @@ body {
     font-size: 35px;
     -ms-flex-item-align: center;
         align-self: center;
+    position: relative;
+    left: 10em;
   }
   .reviews {
     width: 80%;
@@ -685,9 +687,16 @@ body {
   }
   .reviews h3 {
     font-size: 20px;
+    position: relative;
+    right: 20em;
   }
   .reviews img {
     width: 15%;
+  }
+  .reviews a {
+    position: relative;
+    padding: 10px;
+    left: 35%;
   }
   .desc1 p {
     font-size: 18px;
