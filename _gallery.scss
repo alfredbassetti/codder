@@ -1,73 +1,64 @@
+/**Galeria de imagenes **/
 
-
-
-
-/**Galeria de imagenes **/ 
-
-$colorprim:#9ab0f8;
+$colorprim: #9ab0f8;
 
 .gallery {
-    width: 100%;
-    text-align: center;
-
+  width: 100%;
+  text-align: center;
 }
 
-
-.rowCarrousel{
-    display: flex;
-    background-image: linear-gradient(to bottom, #fff, #ccc, #fff);
-    overflow-x:initial;
-    flex-wrap: wrap;
-    justify-content: space-evenly;        
-    width: 100%;  
+.rowCarrousel {
+  display: flex;
+  background-image: linear-gradient(to bottom, #fff, #ccc, #fff);
+  overflow-x: initial;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .gallery h2 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: bold;
-                    background: linear-gradient(to right top, #637cbf,#6cdbeb);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(to right top, #637cbf, #6cdbeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.first { 
-    grid-area: first;
-    
+.first {
+  grid-area: first;
 }
 
 .second {
-    grid-area: second;
+  grid-area: second;
 }
 
 .third {
-    grid-area: third;
-    
+  grid-area: third;
 }
 
 .fourth {
-    grid-area: fourth;
+  grid-area: fourth;
 }
 
 .first img,
 .second img,
 .third img,
 .fourth img {
-    width: 400px;
-    margin: 2rem 0;
-    border-radius: 50px 50px 50px 50px;
-    padding: 1rem 1em;
-    transition: 0.3s;
-    border: none;
-    
+  width: 400px;
+  margin: 2rem 0;
+  border-radius: 50px 50px 50px 50px;
+  padding: 1rem 1em;
+  transition: 0.3s;
+  border: none;
 }
 
 .first img:hover,
 .second img:hover,
 .third img:hover,
 .fourth img:hover {
-    scale: 101%;    
-    padding: 0;
-    transition: 0.3s;
-    box-shadow: 0 0 20px  #fff;
-    border: 1px solid $colorprim;   
+  scale: 101%;
+  padding: 0;
+  transition: 0.3s;
+  box-shadow: 0 0 20px #fff;
+  border: 1px solid $colorprim;
 }

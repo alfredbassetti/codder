@@ -1,78 +1,305 @@
-@media only screen and (max-width: 1566px) {
-.host-h1 {
+@media only screen and (max-width: 1600px) {
+  .about_img {
+    display: flex;
+    text-align: center;
+  }
+
+  /******************MAIN PAGE******************/
+  .gallery-gal {
+    padding: 0 100px;
+  }
+
+  /****HOST page*****/
+  .host-h1 {
     display: flex;
     font-size: 35px;
     align-self: center;
     position: relative;
     left: 10em;
-}
+  }
 
-
-.reviews {
+  .reviews {
     width: 80%;
     position: relative;
     h3 {
-        font-size: 20px;
-        position: relative;
-        right: 20em;
+      font-size: 20px;
+      position: relative;
+      right: 20em;
     }
-     img {
-         width: 15%;
-     }
-     a {  
-         position: relative;
-        padding: 10px;
-        left: 35%;
-     }
-}
-.desc1 {
+    img {
+      width: 15em;
+    }
+    a {
+      position: relative;
+      padding: 10px;
+      left: 35%;
+    }
+  }
+  .desc1 {
     p {
-        font-size: 18px;
-        line-height: 10ch;
+      font-size: 18px;
+      line-height: 10ch;
     }
 
-img {
-    width: 300px;
-    height: auto;
-} 
-}
+    img {
+      width: 30rem;
+    }
+  }
 
-.desc2 {
+  .desc2 {
     p {
-        font-size: 18px;
-        line-height: 10ch;
+      font-size: 18px;
+      line-height: 10ch;
     }
 
-img {
-    width: 300px!important;
-    height: auto;
-} 
+    img {
+      width: 300px !important;
+    }
+  }
 
+  .experiences {
+    img {
+      width: 10%;
+    }
+  }
 
-}
+  @media only screen and (max-width: 1450px) {
+    /******************MAIN PAGE******************/
+    .adventures_flex-item {
+      width: 80%;
+      img {
+        width: 90%;
+        justify-self: center;
+      }
+    }
 
-.experiences {
-    
-     img {
-         width: 10%;
-     }
-}
-
-@media only screen and (max-width: 1400px) {
-    
-        
-    
+    /****ABOUT page*****/
     .teammates {
-        flex-direction: column;
+      flex-direction: column;
     }
     .about_img {
-        display: flex; 
-    
+      display: flex;
+
+      justify-content: center;
+      img {
+        left: 5%;
+      }
+    }
+
+    /****HOST page*****/
+    .experiences {
+      .bg-image {
+        width: 80%;
+      }
+    }
+    .host-hover p {
+      font-size: 18px;
+      left: 25%;
+      align-self: center;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1390px) {
+    /****HOST page*****/
+    .host-h1 {
+      left: 100px;
+    }
+
+    .presentacion {
+      p {
+        line-height: 20px;
+      }
+    }
+
+    .experiences-list {
+      .row {
+        display: flex;
+      }
+    }
+
+    .experiences-list {
+      #p3,
+      #p6 {
+        position: center;
+        left: 35%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1388px) {
+    /******************MAIN PAGE******************/
+
+    .storiesbtn {
+      bottom: 100px;
+    }
+
+    /****HOST page*****/
+    .reviews {
+      h3 {
         justify-content: center;
+        position: center;
+        right: 30%;
+      }
+      img {
+        position: relative;
+        top: 60px;
+        width: 20%;
+      }
+    }
+
+    .host-h1 {
+      font-size: 28px;
+      right: 50%;
+    }
+  }
+
+  .presentacion {
+    img {
+      max-width: 300px;
+      height: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 1196px) {
+    /******************MAIN PAGE******************/
+
+    .nearbyPlaces {
+      h4 {
+        font-size: 18px;
+      }
+      padding-left: 20px;
+    }
+
+    .rowCarrousel {
+      justify-content: center;
+    }
+    .gallery-gal {
+      padding: 0 10px;
+
+      img {
+        width: 200px;
+      }
+    }
+    .stories {
+      border-top: 1px solid #d3d3d3;
+      img {
+        width: 100%;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .host {
+      padding-right: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 990px) {
+    /******************MAIN PAGE******************/
+
+    .nearbyPlaces {
+      p {
+        display: none;
+      }
+      padding-left: 20px;
+    }
+
+    .rowCarrousel {
+      .gallery-gal {
         img {
-            width: 60%;
-            left: 5%;
+          width: 120px;
         }
+      }
     }
+
+    .stories {
+      padding-left: 300px;
     }
+    .tweaked {
+      bottom: 450px;
+    }
+    .stories_flex-1 img {
+      position: relative;
+      width: 20em;
+      top: 100px;
+    }
+
+    .stories {
+      .storiesbtn {
+        bottom: 100px;
+        p {
+          font-size: 12px;
+        }
+      }
+
+      h2 {
+        font-size: 22px;
+        width: 100%;
+      }
+
+      .stories_flex-2 p {
+        font-size: 16px;
+        position: relative;
+        padding-right: 200px;
+        padding-left: 10px;
+      }
+    }
+    .host {
+      display: inline-block;
+      width: 90%;
+      a p {
+        font-size: 20px;
+        left: 50%;
+      }
+    }
+
+    /****HOST page*****/
+    .query-size {
+      width: 50% !important;
+      margin: 0 25%;
+      img {
+        width: 100% !important;
+      }
+      p {
+        position: relative;
+        left: 40%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    /*****MAIN PAGE ********/
+    .reviews {
+      IMG {
+        width: AUTO;
+        height: 70px;
+      }
+    }
+    .city {
+      flex-direction: column-reverse;
+      .city_name {
+        padding: 0;
+      }
+    }
+
+    .host {
+      display: inline-block;
+      width: 90%;
+      a p {
+        font-size: 20px;
+        left: 48%;
+      }
+    }
+
+    /****HOST page*****/
+    .host-h1 {
+      left: 5%;
+    }
+  }
+
+  .col-lg-2 {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
 }
