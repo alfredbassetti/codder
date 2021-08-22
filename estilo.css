@@ -1010,6 +1010,15 @@ h2 {
 .container_fluid_padding .nav-item-style {
   list-style: none;
 }
+.container_fluid_padding .navbar-brand {
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 500;
+  background: -webkit-gradient(linear, left bottom, right top, from(#637cbf), to(#6cdbeb));
+  background: linear-gradient(to right top, #637cbf, #6cdbeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .container_fluid_padding .nav-navbar--padding {
   margin-left: 25%;
